@@ -1,7 +1,3 @@
-Les commandes shell
-======================
-
-
 Exercices
 =============
 
@@ -19,3 +15,10 @@ Exercices
 	* Et finalement changer "myTab" avec les valeurs "0, 9, 0, 8, 0, 123, 1, 0", le trier dans l'ordre croissant avec la fonction, et l'afficher avec l'autre fonction.
 	* Enfin, créer une fonction "int myRandom(int min, int max)" qui renvoit un nombre entier entre min et max.
 	* Et pour finir, créer myTab avec 100 nombres aléatoires, les trier dans l'ordre croissant, et les afficher.
+3. Le rendu
+	* Pour ajouter tous les nouveaux fichiers au dépôt: __git add cheminComplet__". par ex: __git add exercices/1/main.cpp__
+	* On peut ajouter tous les fichiers d'un coup avec: __git add .__ à la racine du dépôt
+	* Ensuite faire un _git commit -a -m "un message de commit"__
+	* Puis enfin un __git push origin master__
+4. Petit bonus GiT important
+	* On peut savoir la différence qu'on a avec le dépot en faisant __git status__ (quels fichiers ne sont pas ajoutés, lequels ne sont pas commit...)
