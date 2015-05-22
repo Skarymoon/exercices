@@ -1,10 +1,23 @@
 #include <iostream>
-#include <string>
+
+
+int const nombreDeLignes = 5;
+int afficherTableau (int myTab[nombreDeLignes]){
+	
+	for (int i = 0; i<nombreDeLignes; i++){
+	
+		std::cout << myTab[i] << std::endl;
+	
+	}
+}
+
+
+
 
 
 
 int main(int argc, char* args[]) {
-  
+
 
 
 int const nombreDeLignes = 5;
@@ -16,7 +29,14 @@ myTab[2] = 42;
 myTab[3] = 1598;
 myTab[4] = 0;
 
-int myTab2 [nombreDeLignes];
+int afficherTableau (int myTab[nombreDeLignes]);
+
+
+return (0);
+}
+
+
+/*int myTab2 [nombreDeLignes];{
 for (int i = 0; i<nombreDeLignes; i++){
 
 	if (myTab[0]<myTab[1], myTab[2], myTab[3], myTab[4], myTab[5]){
@@ -27,7 +47,7 @@ for (int i = 0; i<nombreDeLignes; i++){
 
 		myTab2[0] = myTab[1];}
 
-}
+}}*/
 
 
 
@@ -40,23 +60,6 @@ for (int i = 0; i<nombreDeLignes; i++){
 
  	
 
-int afficherTableau (myTab[nombreDeLignes]);
-	
-	for (int i = 0; i<nombreDeLignes; i++){
-	
-		std::cout << myTab[i] << std::endl;
-	
-	}
-
-int afficherTableau2 (myTab2[nombreDeLignes]);
-
-	for (int i = 0; i<nombreDeLignes; i++){
-
-		std::cout << myTab2[i] << std::endl;
-	}
-
-return (0);
-}
 
 /*if (myTab[4] < myTab[3]){
  		myTab[3]=myTab[4];
