@@ -1,4 +1,81 @@
 #include <iostream>
+#include <string>
+
+
+
+void troudBal(std::string phrase1, std::string phrase2){
+
+
+	std::cout << phrase1 << std::endl;
+	std::cout << phrase2 << std::endl;
+
+}
+void cacaBoudin (std::string phrase1, bool display){
+
+	if (display == true){
+
+		std::cout << phrase1 << std::endl;
+	}
+}
+
+int laDerniereFonction(std::string dernierePhrase, int repet){
+	
+	
+	for(int unTruc = 0;unTruc<repet; ++unTruc){
+
+		std::cout << dernierePhrase << std::endl;
+}
+
+
+}
+
+
+int main(int argc, char* args[]) {
+
+troudBal("Ceci est la premiere ligne", "Ceci est la deuxieme ligne");
+
+cacaBoudin("Le bool est OK donc je m'affiche", true);
+
+cacaBoudin("On s'en fou ca s'affiche pas", false);
+
+laDerniereFonction("S'affiche autant de fois que tu veux", 4);
+
+
+return (0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#include <iostream>
 
 
 int const nombreDeLignes = 5;
