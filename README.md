@@ -21,24 +21,14 @@ Exercices Easy
 2. On retourne la terre
 	* Voici la fonction main:
 	
-	int main(int argc, char **argv){
-	
+	int main(int argc, char **argv) {
 		labourer();
-    
         labourer();
-    
         labourer();
-    
         labourer();
-    
         labourer();
-    
         labourer();
-    
         labourer();
-    
-        labourer();
-    
     }
     
     * Créer une fonction "labourer" qui ne prends pas de paramètre et qui renvoie rien __void labourer(){}__
@@ -48,13 +38,21 @@ Exercices Easy
     * Si la stamina est inférieure ou égale à 0, la fonction labourer affichera "Je suis trop fatigué pour labourer." suivit d'un retour à la ligne. (l'autre message ne doit pas s'afficher dans ce cas).
     * Déplacer ensuite la variable stamina dans un header appelé "potager.h" et situé dans exercices/potager/src/inc/potager.h (il faudra donc inclure le header dans main.cpp)
     * Le résultat de cet exercice devrait être :
+
     Je laboure...
+
     Je laboure...
+
     Je laboure...
+
     Je laboure...
+
     Je laboure...
+
     Je laboure...
+
     Je laboure...
+
     Je suis trop fatigué pour labourer.
 
 3. On plante des légumes
