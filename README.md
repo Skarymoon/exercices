@@ -1,5 +1,3 @@
-Pour plus de simpliciter, je te conseille fortement de lire ce fichier depuis github directement.
-
 Exercices Easy
 ===============
 
