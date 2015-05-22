@@ -22,7 +22,7 @@ Exercices Easy
 ##### 2. On retourne la terre
 * Voici la fonction main:
 
-
+```C++
     int main(int argc, char **argv) {
         labourer();
         labourer();
@@ -32,6 +32,7 @@ Exercices Easy
         labourer();
         labourer();
     }
+```
     
 * Créer une fonction "labourer" qui ne prends pas de paramètre et qui renvoie rien __void labourer(){}__
 * Cette fonction affiche dans le terminal "Je laboure..." suivit d'un retour à la ligne. (std::cout)
