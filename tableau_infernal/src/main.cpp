@@ -12,6 +12,46 @@ int afficherTableau (int myTab[], int const nombreDeLignes){
 }
 
 
+int affichageTableauTri(int myTab[], int const nombreDeLignes){
+	int valeurMini = myTab[0];
+	int valeurMini2 = myTab[0];
+	int valeurMini3 = myTab[0];
+	int valeurMini4 = 10000;
+	int valeurMini5 = 10000;
+
+	for(int i=0; i<nombreDeLignes; ++i){
+
+		if (myTab[i]<valeurMini){
+
+			valeurMini = myTab[i]; 
+
+		}
+		if(myTab[i]<valeurMini2 && myTab[i]>valeurMini){
+
+			valeurMini2 = myTab[i];
+		}
+		if(myTab[i]<valeurMini3 && myTab[i]>valeurMini2){
+
+			valeurMini3 = myTab[i];
+		}
+		if(myTab[i]<valeurMini4 && myTab[i]>valeurMini3){
+
+			valeurMini4 = myTab[i];
+		}
+		if (myTab[i]<valeurMini5 && myTab[i]>valeurMini4){
+
+			valeurMini5 = myTab[i];
+		}
+
+	}
+	std::cout << valeurMini << std::endl;
+	std::cout << valeurMini2 << std::endl;
+	std::cout << valeurMini3 << std::endl;
+	std::cout << valeurMini4 << std::endl;
+	std::cout << valeurMini5 << std::endl;
+}
+
+
 
 
 
@@ -23,13 +63,15 @@ int main(int argc, char* args[]) {
 int const nombreDeLignes = 5;
 int myTab [nombreDeLignes];	
 
-myTab[0] = 12;
+myTab[0] = 120;
 myTab[1] = 5;
 myTab[2] = 42;
 myTab[3] = 1598;
 myTab[4] = 0;
 
 afficherTableau (myTab, nombreDeLignes);
+
+affichageTableauTri (myTab, nombreDeLignes);
 
 
 return (0);
