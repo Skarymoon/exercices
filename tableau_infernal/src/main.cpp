@@ -38,7 +38,7 @@ cacaBoudin("Le bool est OK donc je m'affiche", true);
 
 cacaBoudin("On s'en fou ca s'affiche pas", false);
 
-laDerniereFonction("S'affiche autant de fois que tu veux", 4);
+laDerniereFonction("Salut", 1);
 
 
 return (0);
