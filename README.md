@@ -5,21 +5,21 @@ Exercices Easy
 
 # Le potager
 1.Préparer le terrain
-    * Créer un dossier "potager" à la racine du dépôt
-    * Y copier les fichiers main.cpp et Makefile
-    * Créer également un dossier src/ et obj/. L'architecture doit être la suivante :
-    tableau_infernal/
-    utils/
-    potager/
-        src/
-            main.cpp
-            inc/
-        obj/
-        Makefile
-    * Ouvrir sublime text et bien faire attention d'ouvrir et travailler sur le fichier main.cpp dans le dossier potager/src
+	* Créer un dossier "potager" à la racine du dépôt
+	* Y copier les fichiers main.cpp et Makefile
+	* Créer également un dossier src/ et obj/. L'architecture doit être la suivante :
+	tableau_infernal/
+	utils/
+	potager/
+		src/
+			main.cpp
+			inc/
+		obj/
+		Makefile
+	* Ouvrir sublime text et bien faire attention d'ouvrir et travailler sur le fichier main.cpp dans le dossier potager/src
         
 2. On retourne la terre
-    * Voici la fonction main:
+	* Voici la fonction main:
     int main(int argc, char **argv){
         labourer();
         labourer();
