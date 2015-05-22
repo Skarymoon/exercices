@@ -20,16 +20,27 @@ Exercices Easy
         
 2. On retourne la terre
 	* Voici la fonction main:
+	
 	int main(int argc, char **argv){
+	
 		labourer();
+    
         labourer();
+    
         labourer();
+    
         labourer();
+    
         labourer();
+    
         labourer();
+    
         labourer();
+    
         labourer();
+    
     }
+    
     * Créer une fonction "labourer" qui ne prends pas de paramètre et qui renvoie rien __void labourer(){}__
     * Cette fonction affiche dans le terminal "Je laboure..." suivit d'un retour à la ligne. (std::cout)
     * Créer ensuite une variable globale (en dehors de toute fonction, donc tout le monde y a accès), de type int, appelé stamina, avec pour valeur de départ "7".
