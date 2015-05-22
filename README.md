@@ -1,3 +1,5 @@
+Si ce n'est pas le cas, je te conseille fortement de lire ce fichier depuis github.
+
 Exercices Easy
 ===============
 
@@ -7,7 +9,7 @@ Exercices Easy
 * Y copier les fichiers main.cpp et Makefile
 * Créer également un dossier src/ et obj/. L'architecture doit être la suivante :
 	
-
+```
     potager/
         Makefile
 		obj/
@@ -16,6 +18,7 @@ Exercices Easy
 			main.cpp
     tableau_infernal/
 	utils/
+```
 	
 * Ouvrir sublime text et bien faire attention d'ouvrir et travailler sur le fichier main.cpp dans le dossier potager/src
         
@@ -42,7 +45,7 @@ Exercices Easy
 * Déplacer ensuite la variable stamina dans un header appelé "potager.h" et situé dans exercices/potager/src/inc/potager.h (il faudra donc inclure le header dans main.cpp)
 * Le résultat de cet exercice devrait être :
 
-
+```
     Je laboure...
     Je laboure...
     Je laboure...
@@ -51,43 +54,46 @@ Exercices Easy
     Je laboure...
     Je laboure...
     Je suis trop fatigué pour labourer.
+```
 
 #####3. On plante des légumes
 
 * Voici la fonction main:
 
-
+```C++
     int main(int argc, char** argv){
         labourer();
         planterLegume(4);
         labourer();
         return(0);
     }
+```
 * Créer une fonction __void planterLegume(int nb){}__, qui ne renvoit rien et qui a un paramètre de type entier.
 * La fonction affiche "Je plante un légume." autant de fois que nb (le paramètre)
 * A chaque légume planté, on réduit la variable stamina de 2.
 * Si la stamina est inferieur ou égale à 0, on affichera à la place "Je suis trop fatigué pour planter."
 * Le résultat de cet exercice devrait être :
 
-
+```
     Je laboure...
     Je plante un légume.
     Je plante un légume.
     Je suis trop fatigué pour planter.
     Je suis trop fatigué pour planter.
+```
 * __Bonus !__ Faire en sorte que si on est trop fatigué pour planter un légume, on n'arrête d'essayer d'en planter. (Indice: mot clé __break__ dans une boucle). Le résultat serait donc:
     
-    
+```
     Je laboure...
     Je plante un légume.
     Je plante un légume.
     Je suis trop fatigué pour planter.
-    
+```
 ##### 4. On se recharge
 
 * Voici la fonction main:
 
-
+```C++
     int main(int argc, char** argv){
         labourer()
         planterLegume(4);
@@ -98,29 +104,30 @@ Exercices Easy
         }
         return (0);
     }
-
+```
 * Creer une fonction rest qui renvoit un booléen et qui prend en paramètre un entier __bool rest(int time){}__.
 * Si le temps de repos (le paramètre time) est supérieur ou égal à 60, on s'est reposé, la fonction renvera donc vrai.
 * Sinon on a mal dormi et la fonction renvoit faux.
 * Le résultat doit être :
 
-
+```
     Je laboure...
     Je plante un légume.
     Je plante un légume.
     Je plante une légume.
     Je suis trop fatigué pour planter.
     Je me suis bien reposé !
-    
+```
 ##### 5. Random
 * Voici la fonction main:
     
-
+```C++
     int main(int argc, char **argv){
         int a = myRandom(0, 100);
         std::cout << a << std::endl;
     }
-* Trouver sur le net une fonction qui renvoit un nombre aléatoire qui renvoit un entier entre un min est un max. __int myRandom(int min, int max){}__. Utiliser l'include <rand> ou <rand.h>. La fonction a utiliser est rand(time);
+```
+* Trouver sur le net une fonction qui renvoit un nombre aléatoire qui renvoit un entier entre un min est un max. __int myRandom(int min, int max){}__. Utiliser l'include `<rand>` ou `<rand.h>`. La fonction a utiliser est rand(time);
 * Le résultat doit être un nombre entre 1 et 100.
 
 ##### 6. On se recharge v2
