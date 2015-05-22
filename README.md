@@ -20,8 +20,8 @@ Exercices Easy
         
 2. On retourne la terre
 	* Voici la fonction main:
-    int main(int argc, char **argv){
-        labourer();
+	int main(int argc, char **argv){
+		labourer();
         labourer();
         labourer();
         labourer();
