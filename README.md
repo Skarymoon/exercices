@@ -4,7 +4,7 @@ Exercices Easy
 ===============
 
 # Le potager
-1.Préparer le terrain
+1. Préparer le terrain
 	* Créer un dossier "potager" à la racine du dépôt
 	* Y copier les fichiers main.cpp et Makefile
 	* Créer également un dossier src/ et obj/. L'architecture doit être la suivante :
