@@ -2,7 +2,7 @@
 
 
 int const nombreDeLignes = 5;
-int afficherTableau (int myTab[nombreDeLignes]){
+int afficherTableau (int myTab[], int const nombreDeLignes){
 	
 	for (int i = 0; i<nombreDeLignes; i++){
 	
@@ -29,7 +29,7 @@ myTab[2] = 42;
 myTab[3] = 1598;
 myTab[4] = 0;
 
-int afficherTableau (int myTab[nombreDeLignes]);
+afficherTableau (myTab, nombreDeLignes);
 
 
 return (0);
