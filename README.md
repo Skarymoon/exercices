@@ -22,13 +22,20 @@ Exercices Easy
 	* Voici la fonction main:
 	
     int main(int argc, char **argv) {
-        labourer();
-        labourer();
-        labourer();
-        labourer();
-        labourer();
-        labourer();
-        labourer();
+
+    labourer();
+
+    labourer();
+
+    labourer();
+
+    labourer();
+
+    labourer();
+
+    labourer();
+
+    labourer();
     }
     
     * Créer une fonction "labourer" qui ne prends pas de paramètre et qui renvoie rien __void labourer(){}__
