@@ -46,8 +46,18 @@ void creationDuTableauAvecPair(){
 	}
 	
 }*/
+/*Faire une fonction qui renvoit un boolen, ca prend un int en parametre, si lentier il est pair ca renvoit vrai.*/
 
-
+bool savoirSiChiffrePair(int a){
+bool pair = true;
+	if(a%2==0){
+		pair==true;
+		std::cout << "Le nombre est pair" << std::endl;
+	}else{
+		pair==false;
+		std::cout << "le nombre est impair" << std::endl;
+	}
+return pair;}
 
 
 
@@ -56,8 +66,9 @@ void creationDuTableauAvecPair(){
 
 int main(int argc, char **argv) {
 
-demanderNom();
-creationDuTableauAvecPair();
+/*demanderNom();*/
+/*creationDuTableauAvecPair();*/
+savoirSiChiffrePair(3);
 /*affichageDuTableau(std::vector<int> tableauMillion);*/
 
 	return (0);
